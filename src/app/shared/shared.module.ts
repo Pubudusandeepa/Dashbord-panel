@@ -6,6 +6,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatIconModule } from '@angular/material/icon';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {  MatButtonModule } from '@angular/material/button';
+import { MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
    HeaderComponent,
@@ -16,7 +19,10 @@ import {MatIconModule } from '@angular/material/icon';
     CommonModule,
     MatDividerModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    FlexLayoutModule,
+    MatButtonModule,
+    MatMenuModule
   ],
   exports: [
     HeaderComponent,
