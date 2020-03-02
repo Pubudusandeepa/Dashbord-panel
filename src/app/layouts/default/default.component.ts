@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefaultComponent implements OnInit {
 
+  sideBarOpan = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  sideBarToggle() {
+    this.sideBarOpan = !this.sideBarOpan;
   }
 
 }
