@@ -11,13 +11,15 @@ import {  MatButtonModule } from '@angular/material/button';
 import { MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
 import { RouterModule } from '@angular/router';
+import { AreaComponent } from './widgets/area/area.component';
 
 
 @NgModule({
   declarations: [
    HeaderComponent,
    FooterComponent,
-   SidebarComponent
+   SidebarComponent,
+   AreaComponent
   ],
   imports: [
     CommonModule,
@@ -34,7 +36,8 @@ import { RouterModule } from '@angular/router';
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    AreaComponent
   ]
 })
 export class SharedModule { }
