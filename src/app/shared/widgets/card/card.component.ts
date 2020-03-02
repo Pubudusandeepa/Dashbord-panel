@@ -77,11 +77,7 @@ export class CardComponent implements OnInit {
 
     HC_exporting(Highcharts);
 
-    setTimeout(() => {
-      window.dispatchEvent(
-        new Event('resize')
-      );
-    }, 300);
+
     }
   }
 
